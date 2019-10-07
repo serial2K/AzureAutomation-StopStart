@@ -1,7 +1,7 @@
 
 Param(
-   $Name,
-   $ResourceGroupName
+   $Name = "sfcgvm10"
+   $ResourceGroupName = "Defaultgroup01"
 )
 
 $connectionName = "AzureRunAsConnection"
