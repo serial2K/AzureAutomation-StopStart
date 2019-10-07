@@ -4,6 +4,7 @@ Param(
    $ResourceGroupName = "Defaultgroup01"
 )
 
+# Start-AzureRmAutomationRunbook	-AutomationAccountName $AutomationAcct -Name "StartVM" -Parameters $params -ResourceGroupName $AutomationRG 
 $connectionName = "AzureRunAsConnection"
 try
 {
