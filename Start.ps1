@@ -2,7 +2,7 @@
 Param(
    $AutomationRG = "My1StRG",
    $AutomationAcct = "StopStart",
-   $StartType = "Auto";
+   $StartType = "Auto"
 )
 
 
